@@ -18,12 +18,12 @@ const Principal = () => {
       category: 'Comedia',
       actors: 'Actor 2, Actriz 2',
     },
-  
+    
   ];
 
   return (
     <div>
-      <header style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '1em' }}>
+      <header style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '2em' }}>
         <h1>Mis Series de Netflix Preferidas</h1>
       </header>
 
