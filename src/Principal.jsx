@@ -32,17 +32,17 @@ const Principal = () => {
     <body style={{ fontFamily: 'Arial, sans-serif', backgroundColor: '#f5f5f5', margin: '0', padding: '0', boxSizing: 'border-box' }}>
       <div>
         <header style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '2em', fontFamily: 'Helvetica, Arial, sans-serif' }}>
-          <h1 style={{ margin: '0', fontSize: '2em' }}>Mis Series de Netflix Preferidas</h1>
+          <h1 style={{ margin: '0', fontSize: '2em', fontWeight: 'bold' }}>Mis Series de Netflix Preferidas</h1>
         </header>
 
         <section style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', padding: '20px', backgroundColor: '#fff' }}>
           {seriesData.map(series => (
             <div key={series.id} style={{ width: '300px', margin: '20px', padding: '15px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
               <img src={series.image} alt={`Portada ${series.name}`} style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '8px', marginBottom: '10px' }} />
-              <h2 style={{ margin: '0', fontSize: '1.5em' }}>{series.name}</h2>
-              <p style={{ margin: '0', fontSize: '1em' }}>{series.summary}</p>
-              <p style={{ margin: '0', fontSize: '1em' }}>Categoría: {series.category}</p>
-              <p style={{ margin: '0', fontSize: '1em' }}>Actores Principales: {series.actors}</p>
+              <h2 style={{ margin: '0', fontSize: '1.5em', fontWeight: 'bold' }}>{series.name}</h2>
+              <p style={{ margin: '0', fontSize: '0.8em', fontStyle: 'italic' }}>{series.summary}</p>
+              <p style={{ margin: '0', fontSize: '0.8em', fontStyle: 'italic' }}>Categoría: {series.category}</p>
+              <p style={{ margin: '0', fontSize: '0.8em', fontStyle: 'italic' }}>Actores Principales: {series.actors}</p>
             </div>
           ))}
         </section>
