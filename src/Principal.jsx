@@ -18,7 +18,7 @@ const Principal = () => {
       category: 'Comedia',
       actors: 'Actor 2, Actriz 2',
     },
-
+  
   ];
 
   return (
@@ -28,9 +28,9 @@ const Principal = () => {
           <h1>Mis Series de Netflix Preferidas</h1>
         </header>
 
-        <section style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', padding: '20px' }}>
+        <section style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', padding: '20px', backgroundColor: '#fff' }}>
           {seriesData.map(series => (
-            <div key={series.id} style={{ width: '300px', margin: '20px', padding: '15px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
+            <div key={series.id} style={{ width: '300px', margin: '20px', padding: '15px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
               <img src={series.image} alt={`Portada ${series.name}`} style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '8px', marginBottom: '10px' }} />
               <h2>{series.name}</h2>
               <p>{series.summary}</p>
