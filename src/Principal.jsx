@@ -5,7 +5,7 @@ const Principal = () => {
         {
           id: 1,
           name: 'Breaking Bad',
-          image: 'breaking_bad.jpg',
+          image: 'https://i.blogs.es/16e585/breaking-bad/1366_2000.jpg',
           summary: 'Un profesor de química convertido en fabricante de metanfetaminas se asocia con un exalumno para asegurar el futuro financiero de su familia.',
           category: 'Drama, Crimen',
           actors: 'Bryan Cranston, Aaron Paul',
@@ -13,7 +13,7 @@ const Principal = () => {
         {
           id: 2,
           name: 'Stranger Things',
-          image: 'stranger_things.jpg',
+          image: 'https://www.fayerwayer.com/resizer/gZmzsRN9PG6JSk_9vGD97jFKZW8=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/SZNR4IXRVBG6DIN55H5KPYNU2Q.webp',
           summary: 'Un grupo de niños en un pequeño pueblo descubre fenómenos paranormales y criaturas sobrenaturales mientras buscan a su amigo desaparecido.',
           category: 'Ciencia ficción, Terror',
           actors: 'Millie Bobby Brown, Finn Wolfhard',
@@ -21,19 +21,11 @@ const Principal = () => {
         {
           id: 3,
           name: 'The Mandalorian',
-          image: 'mandalorian.jpg',
+          image: 'https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/09/mandalorian-2485773.jpg?tf=1200x',
           summary: 'En el vasto universo de Star Wars, un cazarrecompensas solitario se embarca en misiones épicas mientras cuida a un misterioso niño llamado Grogu.',
           category: 'Acción, Aventura',
           actors: 'Pedro Pascal',
-        },
-        {
-          id: 4,
-          name: 'The Crown',
-          image: 'the_crown.jpg',
-          summary: 'Una mirada a la vida y reinado de la Reina Isabel II desde sus primeros días en el trono hasta eventos históricos más recientes.',
-          category: 'Drama, Biografía',
-          actors: 'Olivia Colman, Tobias Menzies',
-        },
+        }
   
       ];
       
