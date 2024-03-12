@@ -18,7 +18,7 @@ const Principal = () => {
       category: 'Comedia',
       actors: 'Actor 2, Actriz 2',
     },
-   
+
   ];
 
   return (
