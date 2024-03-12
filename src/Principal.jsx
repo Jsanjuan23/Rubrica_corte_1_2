@@ -18,7 +18,7 @@ const Principal = () => {
       category: 'Comedia',
       actors: 'Actor 2, Actriz 2',
     },
-  
+   
   ];
 
   return (
@@ -32,10 +32,10 @@ const Principal = () => {
           {seriesData.map(series => (
             <div key={series.id} style={{ width: '300px', margin: '20px', padding: '15px', borderRadius: '8px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
               <img src={series.image} alt={`Portada ${series.name}`} style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '8px', marginBottom: '10px' }} />
-              <h2>{series.name}</h2>
-              <p>{series.summary}</p>
-              <p>Categoría: {series.category}</p>
-              <p>Actores Principales: {series.actors}</p>
+              <h2 style={{ margin: '0' }}>{series.name}</h2>
+              <p style={{ margin: '0' }}>{series.summary}</p>
+              <p style={{ margin: '0' }}>Categoría: {series.category}</p>
+              <p style={{ margin: '0' }}>Actores Principales: {series.actors}</p>
             </div>
           ))}
         </section>
