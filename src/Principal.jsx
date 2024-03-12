@@ -1,25 +1,42 @@
 import React from 'react';
 
 const Principal = () => {
-  const seriesData = [
-    {
-      id: 1,
-      name: 'Nombre de la Serie 1',
-      image: 'imagen_serie_1.jpg',
-      summary: 'Resumen de la Serie 1. Breve descripción de la trama.',
-      category: 'Acción, Drama',
-      actors: 'Actor 1, Actriz 1',
-    },
-    {
-      id: 2,
-      name: 'Nombre de la Serie 2',
-      image: 'imagen_serie_2.jpg',
-      summary: 'Resumen de la Serie 2. Breve descripción de la trama.',
-      category: 'Comedia',
-      actors: 'Actor 2, Actriz 2',
-    },
-   
-  ];
+    const seriesData = [
+        {
+          id: 1,
+          name: 'Breaking Bad',
+          image: 'breaking_bad.jpg',
+          summary: 'Un profesor de química convertido en fabricante de metanfetaminas se asocia con un exalumno para asegurar el futuro financiero de su familia.',
+          category: 'Drama, Crimen',
+          actors: 'Bryan Cranston, Aaron Paul',
+        },
+        {
+          id: 2,
+          name: 'Stranger Things',
+          image: 'stranger_things.jpg',
+          summary: 'Un grupo de niños en un pequeño pueblo descubre fenómenos paranormales y criaturas sobrenaturales mientras buscan a su amigo desaparecido.',
+          category: 'Ciencia ficción, Terror',
+          actors: 'Millie Bobby Brown, Finn Wolfhard',
+        },
+        {
+          id: 3,
+          name: 'The Mandalorian',
+          image: 'mandalorian.jpg',
+          summary: 'En el vasto universo de Star Wars, un cazarrecompensas solitario se embarca en misiones épicas mientras cuida a un misterioso niño llamado Grogu.',
+          category: 'Acción, Aventura',
+          actors: 'Pedro Pascal',
+        },
+        {
+          id: 4,
+          name: 'The Crown',
+          image: 'the_crown.jpg',
+          summary: 'Una mirada a la vida y reinado de la Reina Isabel II desde sus primeros días en el trono hasta eventos históricos más recientes.',
+          category: 'Drama, Biografía',
+          actors: 'Olivia Colman, Tobias Menzies',
+        },
+  
+      ];
+      
 
   return (
     <body style={{ fontFamily: 'Arial, sans-serif', backgroundColor: '#f5f5f5', margin: '0', padding: '0', boxSizing: 'border-box' }}>
